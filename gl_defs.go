@@ -210,6 +210,7 @@ const (
 	COMPRESSED_SRGB_ALPHA                         = C.GL_COMPRESSED_SRGB_ALPHA
 	COMPRESSED_SRGB                               = C.GL_COMPRESSED_SRGB
 	COMPRESSED_TEXTURE_FORMATS                    = C.GL_COMPRESSED_TEXTURE_FORMATS
+        COMPUTE_SHADER                                = C.GL_COMPUTE_SHADER
 	CONDITION_SATISFIED                           = C.GL_CONDITION_SATISFIED
 	CONSTANT_ALPHA                                = C.GL_CONSTANT_ALPHA
 	CONSTANT_ATTENUATION                          = C.GL_CONSTANT_ATTENUATION
@@ -1083,6 +1084,8 @@ const (
 	T4F_C4F_N3F_V4F                               = C.GL_T4F_C4F_N3F_V4F
 	T4F_V4F                                       = C.GL_T4F_V4F
 	TABLE_TOO_LARGE                               = C.GL_TABLE_TOO_LARGE
+        TESS_CONTROL_SHADER                           = C.GL_TESS_CONTROL_SHADER
+        TESS_EVALUATION_SHADER                        = C.GL_TESS_EVALUATION_SHADER
 	TEXTURE0                                      = C.GL_TEXTURE0
 	TEXTURE10                                     = C.GL_TEXTURE10
 	TEXTURE11                                     = C.GL_TEXTURE11
